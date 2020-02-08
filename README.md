@@ -1,6 +1,9 @@
 # orcish
 
-<p align="center">👹</p>
+<p align="center">
+  <img src="https://i.imgur.com/PnyuVte.png" height="50" width="50"><br/>
+</p>
+
 
 * NPM package to generate random orc names
 * See examples below
@@ -35,5 +38,3 @@ console.log(OrcThreeNames + "    ⚔️     " + OrcTwoNames);
 <p align="center">
   <img src="https://i.imgur.com/adQxN3t.png"><br/>
 </p>
-
-<p align="center">👹</p>
