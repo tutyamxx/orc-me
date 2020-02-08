@@ -1,4 +1,4 @@
-# orcish
+# orc-me
 
 <p align="center">
   <img src="https://i.imgur.com/PnyuVte.png" height="50" width="50"><br/>
