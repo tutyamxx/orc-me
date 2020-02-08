@@ -10,7 +10,7 @@
 
 # Install [NPM](https://www.npmjs.com/package/orcish)
  
- `$ npm i orcish`
+ `$ npm i orc-me`
 
 # Usage 
 
