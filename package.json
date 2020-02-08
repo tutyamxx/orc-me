@@ -1,5 +1,5 @@
 {
-  "name": "orcish",
+  "name": "orc-me",
   "version": "1.0.0",
   "description": "Generate a random orc name",
   "main": "index.js",
@@ -10,7 +10,8 @@
     "orc-name",
     "orc",
     "orc-name-generator",
-    "orcish"
+    "orcish",
+    "orc-me"
   ],
   "repository": {
     "type": "git",
