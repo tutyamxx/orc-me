@@ -1,0 +1,22 @@
+{
+  "name": "orcish",
+  "version": "1.0.0",
+  "description": "Generate a random orc name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "orc-name",
+    "orc",
+    "orc-name-generator",
+    "orcish"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tutyamxx/orcish"
+    },
+"homepage": "https://github.com/tutyamxx/orcish",
+  "author": "tuty",
+  "license": "MIT"
+}
