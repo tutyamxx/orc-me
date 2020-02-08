@@ -19,7 +19,7 @@
 # Examples
 
 ``` javascript
-const orchish = require("orcish");
+const orchish = require("orc-me");
 
 function capitalizeFirstLetter(string)
 {
