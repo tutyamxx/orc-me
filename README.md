@@ -8,7 +8,7 @@
 * 👹 NPM package to generate random orc names
 * See examples below
 
-# Install [NPM](https://www.npmjs.com/package/orcish)
+# Install [NPM](https://www.npmjs.com/package/orc-me)
  
  `$ npm i orc-me`
 
