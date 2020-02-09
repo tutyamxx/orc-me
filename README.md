@@ -19,15 +19,15 @@
 # Examples
 
 ``` javascript
-const orchish = require("orc-me");
+const orcMe = require("orc-me");
 
 function capitalizeFirstLetter(string)
 {
     return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
-const OrcThreeNames = capitalizeFirstLetter(orchish()) + " " + capitalizeFirstLetter(orchish()) + " " + capitalizeFirstLetter(orchish());
-const OrcTwoNames = capitalizeFirstLetter(orchish()) + " " + capitalizeFirstLetter(orchish());
+const OrcThreeNames = capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe());
+const OrcTwoNames = capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe());
 
 console.log("Orc battle started!");
 console.log(OrcThreeNames + "    ⚔️     " + OrcTwoNames);
