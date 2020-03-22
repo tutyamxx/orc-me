@@ -1,6 +1,6 @@
 {
   "name": "orc-me",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Generate a random orc name",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/tutyamxx/orc-me"
-    },
-"homepage": "https://github.com/tutyamxx/orc-me",
+  },
+  "homepage": "https://github.com/tutyamxx/orc-me",
   "author": "tuty",
   "license": "MIT"
 }
