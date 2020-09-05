@@ -1,10 +1,10 @@
 {
   "name": "orc-me",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Generate a random orc name",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose"
   },
   "keywords": [
     "orc-name",
@@ -19,5 +19,8 @@
   },
   "homepage": "https://github.com/tutyamxx/orc-me",
   "author": "tuty",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
 }
