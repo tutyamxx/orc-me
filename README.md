@@ -28,11 +28,11 @@ function capitalizeFirstLetter(string)
     return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
-const OrcThreeNames = capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe());
-const OrcTwoNames = capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe());
+const orcThreeNames = capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe());
+const orcTwoNames = capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe());
 
 console.log("Orc battle started!");
-console.log(OrcThreeNames + "    ⚔️     " + OrcTwoNames);
+console.log(orcThreeNames + "    ⚔️     " + orcTwoNames);
 ```
 
 # Result of the example above
