@@ -1,12 +1,11 @@
 /**
  *  orchish - 👹 Generate a random orc name
- *  @version: v1.0.9
+ *  @version: v1.1.1
  *  @link: https://github.com/tutyamxx/orc-me
  *  @license: MIT
  **/
 
-const RandomOrcnameStrings =
-[
+const randomOrcnameStrings = [
     "ach", "adz", "ak", "ark", "az", "balg", "bilg", "blid", "blig", "blok", "blot", "bolg", "bot", "bug", "burk", "dokh", "drik", "driz", "duf", "flug", "ga", "gad", "gag", "gah",
     "gak", "gar", "gat", "gaz", "ghag", "ghak", "git", "glag", "glak", "glat", "glig", "gliz", "glok", "gnat", "gog", "grak", "grat", "guk", "hig", "irk", "kak", "khad", "krig", "lag",
     "lak", "lig", "likk", "loz", "luk", "mak", "maz", "miz", "mub", "nad", "nag", "naz", "nig", "nikk", "nogg", "nok", "nukk", "rag", "rak", "rat", "rok", "shrig", "shuk", "skrag", "skug",
@@ -22,7 +21,4 @@ const RandomOrcnameStrings =
     "urkh", "uz", "yug", "yur", "zud", "zug", "xug", "grug"
 ];
 
-module.exports = () =>
-{
-    return RandomOrcnameStrings[Math.floor(Math.random() * RandomOrcnameStrings.length)];
-};
+module.exports = () => randomOrcnameStrings[Math.floor(Math.random() * randomOrcnameStrings.length)];
