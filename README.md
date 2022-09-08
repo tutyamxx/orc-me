@@ -21,17 +21,17 @@
 # Examples
 
 ``` javascript
-const orcMe = require("orc-me");
+const orcMe = require('orc-me');
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
-const orcThreeNames = capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe());
-const orcTwoNames = capitalizeFirstLetter(orcMe()) + " " + capitalizeFirstLetter(orcMe());
+const orcThreeNames = capitalizeFirstLetter(orcMe()) + ' ' + capitalizeFirstLetter(orcMe()) + ' ' + capitalizeFirstLetter(orcMe());
+const orcTwoNames = capitalizeFirstLetter(orcMe()) + ' ' + capitalizeFirstLetter(orcMe());
 
-console.log("Orc battle started!");
-console.log(orcThreeNames + "    ⚔️     " + orcTwoNames);
+console.log('Orc battle started!');
+console.log(orcThreeNames + '    ⚔️     ' + orcTwoNames);
 ```
 
 # Result of the example above
