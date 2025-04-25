@@ -1,6 +1,6 @@
 /**
  *  orchish - 👹 Generate a random orc name
- *  @version: v1.2.0
+ *  @version: v1.2.1
  *  @link: https://github.com/tutyamxx/orc-me
  *  @license: MIT
  **/
