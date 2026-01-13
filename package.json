@@ -1,6 +1,6 @@
 {
   "name": "orc-me",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Generate a random orc name",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   "author": "tuty",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^30.2.0"
   }
 }
