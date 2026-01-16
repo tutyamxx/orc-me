@@ -16,6 +16,8 @@
 
 * 👹 NPM package to generate random orc names
 * ✨ Get awesome orc names for your projects!
+* 👹 An orc name is created by starting with a harsh consonant sound (like `gr`, `kr`, `th`, or `sh`), followed by a short, heavy vowel (`a`, `o`, or `u`), and usually ending with another hard consonant (`g`, `k`, `r`, or `z`). Sometimes an extra harsh sound is added at the end to make the name feel more brutal.
+* ⭐ Updated the version using a custom `orc phoneme grammar` to avoid hardcoded array of names.
 
 # Install [NPM](https://www.npmjs.com/package/orc-me) 📦
 
@@ -30,12 +32,8 @@
 ``` javascript
 const orcMe = require('orc-me');
 
-function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-};
-
-const orcThreeNames = capitalizeFirstLetter(orcMe()) + ' ' + capitalizeFirstLetter(orcMe()) + ' ' + capitalizeFirstLetter(orcMe());
-const orcTwoNames = capitalizeFirstLetter(orcMe()) + ' ' + capitalizeFirstLetter(orcMe());
+const orcThreeNames = `${orcMe()} ${orcMe()} ${orcMe()}`;
+const orcTwoNames = `${orcMe()} ${orcMe()}`;
 
 console.log('Orc battle started! ⚔️');
 console.log(orcThreeNames + '    ⚔️     ' + orcTwoNames);
