@@ -29,6 +29,7 @@
 
 # Examples 💻
 
+## CommonJS
 ``` javascript
 const orcMe = require('orc-me');
 

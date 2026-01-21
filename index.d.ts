@@ -3,6 +3,6 @@
  *
  * @returns A randomly generated orc name as a string
  */
-declare function orcName(): string;
+declare function orcMe(): string;
 
-export = orcName;
+export = orcMe;
