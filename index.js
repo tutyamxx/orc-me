@@ -1,6 +1,6 @@
 /**
  *  orc-me - 👹 Generate a random orc name
- *  @version: v1.2.7
+ *  @version: v1.2.8
  *  @link: https://github.com/tutyamxx/orc-me
  *  @license: MIT
  **/
@@ -39,4 +39,8 @@ const orcMe = () => {
     return `${onset}${vowel}${coda}${extra}${secondSyllable}`?.replace?.(/^./, c => c.toUpperCase()) ?? '';
 };
 
+// --| CommonJS export
 module.exports = orcMe;
+
+// --| ESM default export for `import` statements
+module.exports.default = orcMe;
