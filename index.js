@@ -1,6 +1,6 @@
 /**
  *  orc-me - 👹 Generate a random orc name
- *  @version: v1.3.2
+ *  @version: v1.3.3
  *  @link: https://github.com/tutyamxx/orc-me
  *  @license: MIT
  **/
@@ -8,7 +8,7 @@
 const pick = (src) => src?.[Math.random() * src.length | 0] ?? '';
 
 /**
- * Generate a random Orc-style name.
+ * 👹 Generate a random orc name.
  *
  * @returns A randomly generated orc name as a string
  */

@@ -1,5 +1,5 @@
 /**
- * Generate a random Orc-style name.
+ * 👹 Generate a random orc name.
  *
  * @returns A randomly generated orc name as a string
  */
